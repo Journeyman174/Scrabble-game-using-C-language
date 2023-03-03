@@ -1,7 +1,6 @@
 # Scrabble-game-using-C-language
 
 Pas 0 :
-
 	Am declarat tabela de joc tabla_joc ca o matrice de tip caracter
 cu dimensiunea 15 x 15 si am populat-o cu caracterul '.' . 
 	Am definit un vector, scor[26], care memoreaza punctajele 
@@ -12,21 +11,18 @@ am facut-o cu functiile fgtes si strtol.
 	
 	
 Pas 1 :
-
 	Citirea inputului, numarul de linii N s-a facut in variabila n.
 	Coordonatele liniilor Y, X si directia D precum si cuvantul primit s-au memorat in variabilele y, x, d si
 cuvant, intr-o bucla for.
 	La sfarsit utilizand functia printboard s-a afisat tabla de joc.
 	
  Pas 2 :
- 
 	Pentru pasul 2 s-au calculat punctajele celor 2 jucatori,
 utilizandu-se pentru fiecare litera punctajele din vectorul scor[].
 	Utilizand conventia, liniile cu numarul de ordine impar apartin jucatorului 1 
 si par jucatorului 2.
 
 Pas 3 :
-
 	S-a utilizat algoritmul de la pasul 2.
 	In plus, s-au citit substringurile XX si YY in variabilele xx si yy
 pentru casutele marcate cu 1 si respectiv 2 din tabela de bonusuri data.
@@ -42,7 +38,6 @@ linie para jucator 2.
 	La sfarsit, punctajul final s-a multiplicat cu bonusul.
 	
 Pas 4 :
-
 	S-a utilizat algoritmul de la pas 3, pentru citirea substringurilor de 
 bonus si a liniilor primite. 
 	Cuvintele primite (existente pe tabla) s-au memorat utilizand functia strcpy()
@@ -57,7 +52,6 @@ si am cautat litera egala cu prima litera a cuvantului gasit si am verificat dac
 l-am scris in tabla de joc.
 
 Pas 5 :
-
 	S-a utilizat acelasi algoritm de la pas 4, in plus am definit o functie punctaj() care primind 
 pointerii catre substringurile de bonus YY1, XX1, coordonatale y, x, directia d, vectorul de scor 
 si cuvantul intoarce punctajul cuvantului.
