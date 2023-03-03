@@ -1,6 +1,7 @@
 # Scrabble-game-using-C-language
 
--Pas 0-
+Pas 0 :
+
 	Am declarat tabela de joc tabla_joc ca o matrice de tip caracter
 cu dimensiunea 15 x 15 si am populat-o cu caracterul '.' . 
 	Am definit un vector, scor[26], care memoreaza punctajele 
@@ -8,17 +9,24 @@ pentru litere pentru calcularea scorului jucatorilor.
 	Pentru dialogul cu utilizatorul, citirea numarului task-ului 
 am facut-o cu functiile fgtes si strtol. 
 	Executia optiunii utilizatorului am facut-o utlizand comanda switch case.
--Pas 1-
+	
+	
+Pas 1 :
+
 	Citirea inputului, numarul de linii N s-a facut in variabila n.
 	Coordonatele liniilor Y, X si directia D precum si cuvantul primit s-au memorat in variabilele y, x, d si
 cuvant, intr-o bucla for.
 	La sfarsit utilizand functia printboard s-a afisat tabla de joc.
- -Pas 2 -
+	
+ Pas 2 :
+ 
 	Pentru pasul 2 s-au calculat punctajele celor 2 jucatori,
 utilizandu-se pentru fiecare litera punctajele din vectorul scor[].
 	Utilizand conventia, liniile cu numarul de ordine impar apartin jucatorului 1 
 si par jucatorului 2.
+
 Pas 3 :
+
 	S-a utilizat algoritmul de la pasul 2.
 	In plus, s-au citit substringurile XX si YY in variabilele xx si yy
 pentru casutele marcate cu 1 si respectiv 2 din tabela de bonusuri data.
@@ -32,7 +40,9 @@ bonus_y = 1, se tripleaza valoarea cuvantului.
 	S-a calculat scorul pentru jucatori dupa regula linie impara jucator 1,
 linie para jucator 2.
 	La sfarsit, punctajul final s-a multiplicat cu bonusul.
+	
 Pas 4 :
+
 	S-a utilizat algoritmul de la pas 3, pentru citirea substringurilor de 
 bonus si a liniilor primite. 
 	Cuvintele primite (existente pe tabla) s-au memorat utilizand functia strcpy()
@@ -45,7 +55,9 @@ cu cel din matricea words_puse.
 si am cautat litera egala cu prima litera a cuvantului gasit si am verificat daca cuvantul se poate scrie
 (are loc) pe orizontala, apoi pe verticala si in caz afirmativ,
 l-am scris in tabla de joc.
+
 Pas 5 :
+
 	S-a utilizat acelasi algoritm de la pas 4, in plus am definit o functie punctaj() care primind 
 pointerii catre substringurile de bonus YY1, XX1, coordonatale y, x, directia d, vectorul de scor 
 si cuvantul intoarce punctajul cuvantului.
@@ -63,4 +75,3 @@ vectorii optim[4] si word_opt, marcandu-se cu flag-ul op = 1.
 	Cuvantul optim este memorat daca indeplineste cerintele date.
         La sfarsit in fuctie de valoare flag-ului op, se scrie in tabela de joc, cuvantul din word_opt, daca op = 1 si
 se afiseaza mesajul Fail, daca op = 0.
-
