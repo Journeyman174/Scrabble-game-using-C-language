@@ -1,6 +1,6 @@
 # Scrabble-game-using-C-language
 
-Pas 0 :
+-Pas 0-
 	Am declarat tabela de joc tabla_joc ca o matrice de tip caracter
 cu dimensiunea 15 x 15 si am populat-o cu caracterul '.' . 
 	Am definit un vector, scor[26], care memoreaza punctajele 
@@ -8,12 +8,12 @@ pentru litere pentru calcularea scorului jucatorilor.
 	Pentru dialogul cu utilizatorul, citirea numarului task-ului 
 am facut-o cu functiile fgtes si strtol. 
 	Executia optiunii utilizatorului am facut-o utlizand comanda switch case.
-Pas 1 :
+-Pas 1-
 	Citirea inputului, numarul de linii N s-a facut in variabila n.
 	Coordonatele liniilor Y, X si directia D precum si cuvantul primit s-au memorat in variabilele y, x, d si
 cuvant, intr-o bucla for.
 	La sfarsit utilizand functia printboard s-a afisat tabla de joc.
- Pas 2 :
+ -Pas 2 -
 	Pentru pasul 2 s-au calculat punctajele celor 2 jucatori,
 utilizandu-se pentru fiecare litera punctajele din vectorul scor[].
 	Utilizand conventia, liniile cu numarul de ordine impar apartin jucatorului 1 
