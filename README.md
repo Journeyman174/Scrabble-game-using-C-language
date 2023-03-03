@@ -62,4 +62,5 @@ ci continua pana la parcurgerea celor 100 de cuvinte, la sfarsit.
 vectorii optim[4] si word_opt, marcandu-se cu flag-ul op = 1.
 	Cuvantul optim este memorat daca indeplineste cerintele date.
 	La sfarsit in fuctie de valoare flag-ului op, se scrie in tabela de joc, cuvantul din word_opt, daca op = 1 si
-se afiseaza mesajul Fail, daca op = 0.     
+se afiseaza mesajul Fail, daca op = 0.
+
